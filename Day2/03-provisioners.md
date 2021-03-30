@@ -77,7 +77,7 @@ Apply complete! Resources: 0 added, 0 changed, 0 destroyed.
 In order to ensure that the provisioners run, use the `terraform taint` command. A resource that has been marked as _tainted_ will be destroyed and recreated.
 
 ```shell
-terraform taint module.server.aws_instance.web
+terraform taint aws_instance.web[0]
 ```
 
 ```
