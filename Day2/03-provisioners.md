@@ -81,7 +81,7 @@ terraform taint aws_instance.web[0]
 ```
 
 ```
-Resource instance module.server.aws_instance.web has been marked as tainted.
+Resource instance aws_instance.web[0] has been marked as tainted.
 ```
 
 Upon running `terraform apply`, you should see new output:
