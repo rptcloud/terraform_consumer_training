@@ -4,7 +4,7 @@ Duration: 20 minutes
 
 Configuration files can be separated out into modules to better organize your configuration. This makes your code easier to read and reusable across your organization. You can also use the Public Module Registry to find pre-configured modules.
 
-- Task 1: Explore the Pubic Module Registry and install a module
+- Task 1: Explore the Public Module Registry and install a module
 - Task 2: Refresh and rerun your Terraform configuration
 
 ## Task 1: Explore the Public Module Registry
